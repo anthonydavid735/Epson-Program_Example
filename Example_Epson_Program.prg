@@ -2,7 +2,7 @@ Function main 'starts a new function, or group of program statements'
 
 'Program written by Anthony David'
 'ME324L Lab Technician'
-'Iowa State University, Mechanical Enginering Department, Ames, IA'
+'Iowa State University, Mechanical Engineering Department, Ames, IA'
 'Program written on 8/24/2021'
 'For demonstration purposes'
 
@@ -23,8 +23,8 @@ Home 'The home commands puts the robot in the starting "home" position'
 
 For i = 0 To 1 'This is another way to loop your section(s) of code'
 Go P0 'The "Go" statement tells the robot to move to the desired position P#'
-Wait 0.25 'The "Wait" commnd tells the robot to hold it's current position for the desired time - number is in seconds'
-Go down 'You can also give the points names, and in your code, you can call these nmes out instead of tryping P#'
+Wait 0.25 'The "Wait" command tells the robot to hold its current position for the desired time - number is in seconds'
+Go down 'You can also give the points names, and in your code, you can call these names out instead of typing P#'
 Wait 0.25
 Go P0
 Wait 0.25
